@@ -5,7 +5,7 @@ import SearchIcon from './search.svg';
 
 /* ab72a91 */
 
-const api = `http://www.omdbapi.com?apikey=${process.env.REACT_APP_OMDB}&s=${form.movie}&type=movie`;
+const API_URL = `https://www.omdbapi.com?apikey=${process.env.REACT_APP_OMDB}&s=${form.movie}&type=movie`;
 
 
 const App = () => {
